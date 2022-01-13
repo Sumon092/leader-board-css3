@@ -181,3 +181,48 @@ hr{
     color: #ED6B4F;
 }
 .fa-clock, .course-duration{margin-left: 7px;}
+/* ---------------------
+CSS FOR MEDIA SECTION 
+------------------------*/
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    .top-section{
+        width: fit-content;
+        margin-left: 60px;
+    }
+    .right-anchor a{
+        padding: 2px;
+    }
+    .idea h3{
+        padding: 10px;
+    }
+    .section-title{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .players{
+        grid-template-columns: 1fr 1fr;
+    }
+    .player, .blog{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogs,.courses{
+        grid-template-columns: 1fr;
+    }
+    .blog-title{
+        font-size: 16px;
+    }
+    .blog-author,.course-author{
+        text-align: center;
+    }
+    .courses{
+        justify-items: center;
+    }
+    .course{
+        margin-bottom: 25px;
+    }
+}
